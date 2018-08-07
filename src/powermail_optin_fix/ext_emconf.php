@@ -1,0 +1,30 @@
+<?php
+$EM_CONF[$_EXTKEY] = [
+	'title'            => 'Powermail optin fix',
+	'description'      => 'Fixes the error on powermail optin in different language than the default one.',
+	'category'         => 'fix',
+	'author'           => 'Patrik Lang',
+	'author_email'     => 'patrik.lang@hotbytes.de',
+	'author_company'   => 'hotbytes GmbH & Co. KG',
+	'shy'              => '',
+	'priority'         => '',
+	'module'           => '',
+	'state'            => 'stable',
+	'internal'         => '',
+	'uploadfolder'     => '0',
+	'createDirs'       => '',
+	'modify_tables'    => '',
+	'clearCacheOnLoad' => 0,
+	'lockType'         => '',
+	'version'          => '1.0.0',
+	'constraints'      => [
+		'depends'   => [
+			'typo3'     => '7.6.0-8.7.99',
+			'extbase'   => '',
+			'fluid'     => '',
+			'powermail' => '3.22.1 - 6.1.99',
+		],
+		'conflicts' => [],
+		'suggests'  => [],
+	],
+];
