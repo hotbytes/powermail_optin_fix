@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
 	'title'            => 'Powermail optin fix',
-	'description'      => 'Fixes the error on powermail optin in different language than the default one.',
+	'description'      => 'Fixes the error on powermail optin in different language than the default one. Thanks to DI Michael Ganner (michael.ganner@gugler.at) for his solution on github!',
 	'category'         => 'fix',
 	'author'           => 'Patrik Lang',
 	'author_email'     => 'patrik.lang@hotbytes.de',
