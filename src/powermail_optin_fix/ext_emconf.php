@@ -2,7 +2,7 @@
 $EM_CONF[$_EXTKEY] = [
 	'title'            => 'Powermail optin fix',
 	'description'      => 'Fixes the error on powermail optin in different language than the default one. Thanks to DI Michael Ganner (michael.ganner@gugler.at) for his solution on github!',
-	'category'         => 'fix',
+	'category'         => 'fe',
 	'author'           => 'Patrik Lang',
 	'author_email'     => 'patrik.lang@hotbytes.de',
 	'author_company'   => 'hotbytes GmbH & Co. KG',
@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
 	'modify_tables'    => '',
 	'clearCacheOnLoad' => 0,
 	'lockType'         => '',
-	'version'          => '1.0.0',
+	'version'          => '1.0.1',
 	'constraints'      => [
 		'depends'   => [
 			'typo3'     => '7.6.0-8.7.99',
